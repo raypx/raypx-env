@@ -1,6 +1,6 @@
 {
   "name": "@raypx/env",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Environment validation with extends support and configurable client prefix",
   "keywords": [
     "env",

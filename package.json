@@ -27,7 +27,10 @@
     "typecheck": "tsc --noEmit",
     "changeset": "changeset",
     "version": "changeset version",
-    "release": "pnpm build && changeset publish",
+    "release": "pnpm build && changeset publish && changeset tag && git push --follow-tags",
+    "pre:enter": "changeset pre enter",
+    "pre:exit": "changeset pre exit",
+    "prerelease": "pnpm build && changeset publish",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

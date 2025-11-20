@@ -6,5 +6,4 @@ export default defineConfig({
   format: 'esm',
   shims: true,
   clean: true,
-  skipNodeModulesBundle: true,
 });

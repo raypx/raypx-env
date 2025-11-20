@@ -42,9 +42,6 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "envin": "^1.1.10",
-    "lodash-es": "^4.17.21",
-    "type-fest": "^5.2.0",
     "zod": "^4.1.12"
   },
   "devDependencies": {
@@ -52,8 +49,11 @@
     "@changesets/cli": "^2.29.7",
     "@types/lodash-es": "^4.17.12",
     "@types/node": "^24.10.1",
+    "envin": "^1.1.10",
+    "lodash-es": "^4.17.21",
     "rimraf": "^6.1.2",
     "tsdown": "^0.16.5",
+    "type-fest": "^5.2.0",
     "typescript": "^5.9.3",
     "vite": "^7.2.2",
     "vitest": "^4.0.10"
